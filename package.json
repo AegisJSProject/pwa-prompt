@@ -1,6 +1,6 @@
 {
   "name": "@aegisjsproject/pwa-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An install prompt for PWAs with `related_applications` / app store links & badges",
   "keywords": [
     "pwa"
