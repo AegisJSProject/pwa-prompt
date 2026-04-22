@@ -1,0 +1,56 @@
+{
+	"id": "http://localhost:8080/#pwa-prompt",
+	"start_url": "http://localhost:8080/",
+	"name": "@aegisjsproject/pwa-prompt",
+	"display": "standalone",
+	"background_color": "#232323",
+	"theme_color": "#0d6efd",
+	"description": "Testing the PWA Install Prompt",
+	"categories": [
+		"foo",
+		"bar"
+	],
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any"
+		}
+	],
+	"screenshots": [
+		{
+			"src": "https://i.imgur.com/E9BEmLkh.webp",
+			"sizes": "1024x578",
+			"type": "image/webp"
+		},
+		{
+			"src": "https://i.imgur.com/E9BEmLkl.webp",
+			"sizes": "640x361",
+			"type": "image/webp"
+		},
+		{
+			"src": "https://i.imgur.com/E9BEmLkm.webp",
+			"sizes": "320x181",
+			"type": "image/webp"
+		}
+	],
+	"related_applications": [
+		{
+			"platform": "play",
+			"url": "#play"
+		}, {
+			"platform": "itunes",
+			"url": "#itunes"
+		}, {
+			"platform": "f-droid",
+			"url": "#f-droid"
+		}, {
+			"platform": "amazon",
+			"url": "#amazon"
+		}, {
+			"platform": "windows",
+			"url": "#windows"
+		}
+	]
+}

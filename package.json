@@ -1,16 +1,17 @@
 {
-  "name": "npm-template",
-  "version": "1.1.3",
-  "description": "A template repo for npm packages",
-  "keywords": [],
+  "name": "@aegisjsproject/pwa-prompt",
+  "version": "1.0.1",
+  "description": "An install prompt for PWAs with `related_applications` / app store links & badges",
+  "keywords": [
+    "pwa"
+  ],
   "type": "module",
-  "main": "./index.cjs",
-  "module": "./index.js",
-  "unpkg": "./index.min.js",
+  "main": "./prompt.cjs",
+  "module": "./prompt.js",
   "exports": {
     ".": {
-      "import": "./index.js",
-      "require": "./index.cjs"
+      "import": "./prompt.js",
+      "require": "./prompt.cjs"
     },
     "./*.js": {
       "import": "./*.js",
@@ -52,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shgysk8zer0/npm-template.git"
+    "url": "git+https://github.com/AegisJSProject/pwa-prompt.git"
   },
   "author": "Chris Zuber <admin@kernvalley.us>",
   "license": "MIT",
@@ -67,13 +68,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/shgysk8zer0/npm-template/issues"
+    "url": "https://github.com/AegisJSProject/pwa-prompt/issues"
   },
-  "homepage": "https://github.com/shgysk8zer0/npm-template#readme",
+  "homepage": "https://github.com/AegisJSProject/pwa-prompt#readme",
   "devDependencies": {
     "@aegisjsproject/dev-server": "^1.0.6",
     "@aegisjsproject/http-utils": "^1.0.4",
-    "@rollup/plugin-terser": "^1.0.0",
     "@shgysk8zer0/eslint-config": "^1.0.9",
     "@shgysk8zer0/http-server": "^1.1.2",
     "@shgysk8zer0/importmap": "^1.9.5",

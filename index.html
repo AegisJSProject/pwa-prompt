@@ -6,14 +6,19 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="color-scheme" content="light dark" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+		<link rel="manifest" href="/webapp.webmanifest" />
+		<link rel="stylesheet" href="https://unpkg.com/@aegisjsproject/styles@0.3.2/css/properties.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<script type="importmap" integrity="{{ INTEGRITY }}">{{ IMPORTMAP }}</script>
 		<script src="{{ POLYFILLS }}" referrerpolicy="no-referrer" crossorigin="anonymous" defer=""></script>
+		<script type="module" src="/prompt.js" referrerpolicy="no-referrer"></script>
 	</head>
 	<body>
 		<header id="header">
 			<h1>Hello, World!</h1>
 		</header>
-		<nav id="nav"></nav>
+		<nav id="nav">
+			<button type="button" class="btn btn-primary" command="show-popover" commandfor="prompt">Show</button>
+		</nav>
 		<main id="main">
 			<details>
 				<summary>Request</summary>
@@ -30,5 +35,6 @@
 		</main>
 		<aside id="sidebar"></aside>
 		<footer id="footer"></footer>
+		<pwa-prompt id="prompt"></pwa-prompt>
 	</body>
 </html>
