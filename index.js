@@ -1,1 +1,0 @@
-import '@aegisjsproject/pwa-prompt';
